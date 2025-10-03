@@ -1,0 +1,54 @@
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.calculadora {
+  width: 220px;
+  margin: 20px auto;
+  background: #f0f0f0;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.pantalla {
+  background: white;
+  color: black;
+  font-size: 1.8rem;
+  text-align: right;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.teclado .fila {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+button {
+  flex: 1;
+  margin: 2px;
+  padding: 12px 0;
+  font-size: 1.2rem;
+  background: #e0e0e0;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #d0d0d0;
+}
+
+.igual {
+  background: #ff5959;
+  color: white;
+}
+
+.igual:hover {
+  background: #e14c4c;
+}
